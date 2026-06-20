@@ -1,0 +1,9 @@
+/* این سه خط، Tailwind CSS رو فعال می‌کنن و کلاس‌های پایه/کاربردی/کامپوننتی اون رو وارد پروژه می‌کنن */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* رنگ پس‌زمینه پیش‌فرض کل سایت رو مشکی می‌کنیم چون افکت‌های Aceternity روی پس‌زمینه تیره بهتر دیده میشن */
+body {
+  background-color: #000000;
+}
